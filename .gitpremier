@@ -1,1 +1,63 @@
-.
+
+
+<html>
+    <head>
+        <title>lycée-sportif-ben-omar-sy/acceuil</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <script>
+         alert ('Binevenue sur EDUC-MALI');
+         
+        </script>
+        <div id="page">
+            <!-- En-tete du page -->
+            <div id="page-tete">
+                    <h1><span>EDUC-MALI</span></h1>
+                    <h2><span>L'éduction nous consernes tous. </span></h2>
+            </div>
+            <!-- fin de En-tete du page -->
+            <!-- Menu -->
+            <div id="page_menu">
+                <img src="logo.png">
+                <nav>
+                    <ul>
+                        <li><a href="lyccee.html" title="lycée-sportif-ben-omar-sy/Acceuil"><span>ACCEUIL</span></a></li>
+                        <li><a href="formation.html" title="lycée-sportif-ben-omar-sy/formations"><b><span>FORMATIONS</span></b></a></li>
+                        <li><a href="historique.html" title="lycée-sportif-ben-omar-sy/historiques"><b><span>FORUMS</span></b></a></li>
+                        <li><a href="internat.html" title="lycée-sportif-ben-omar-sy/internat"><b><span>ACTUALITES</span></b></a></li>
+                        <li><a href="contact.html" title="lycée-sportif-ben-omar-sy/contacts"><b><span>CONTACTS</span></b></a></li>
+                    </ul>
+                 </nav>
+            </div>
+        <!--  fin du Menu -->
+        <!-- bare de recherche-->
+        <div id="recherche">
+            <form>
+                <div>
+                    <h3>Recherche </h3>
+                    <input name="recherche" size="20" type="text">
+                    <input type="button" value="lancer">
+                </div>
+            </form>
+        </div>
+         <!--fin bare de recherche-->
+         <!-- contenu du page -->
+        <div id="page_content">
+            <div id="welcome_text">
+                <div class="content_box">
+                    <h2><span>Bienvenue sur notre page officiel</span></h2> 
+                </div>
+            </div>
+        </div>
+         <!-- fin contenu du page -->
+        </div>
+        <!-- pied de page -->
+        <div id="pied-de-page">
+            Design by<a href="www.educ-mali.com"> EDUC-MALI</a> Bamako/MALI 2020
+        </div>
+        <!-- fin d pied de page -->
+        </div>
+    </body>
+</html>
